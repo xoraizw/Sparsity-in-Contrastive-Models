@@ -26,7 +26,7 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/your-username/sparsity-contrastive-models.git
 cd sparsity-contrastive-models
 pip install -r requirements.txt
-
+```
 
 ### Data Preparation
 We use the CIFAR-10 dataset for the experiments. The dataset will be automatically downloaded when running the scripts.
