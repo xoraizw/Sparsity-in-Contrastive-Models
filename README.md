@@ -1,6 +1,6 @@
 # Sparsity in Contrastive Models
 
-This repository explores the use of sparse signal recovery methods, such as \( l_1 \)-relaxation, to improve the interpretability of multimodal representations in contrastive models like CLIP (Contrastive Language–Image Pretraining). The primary objective is to evaluate how sparse CLIP embeddings compare to dense embeddings in a zero-shot classification task.
+This repository explores the use of sparse signal recovery methods, such as l1-relaxation, to improve the interpretability of multimodal representations in contrastive models like CLIP (Contrastive Language–Image Pretraining). The primary objective is to evaluate how sparse CLIP embeddings compare to dense embeddings in a zero-shot classification task.
 
 ## Features
 
@@ -10,7 +10,7 @@ This repository explores the use of sparse signal recovery methods, such as \( l
 
 2. **Inducing Sparsity in CLIP Embeddings**
    - Build a concept dictionary from human-readable tokens using CLIP's text encoder.
-   - Enforce sparsity through \( l_1 \)-regularized optimization.
+   - Enforce sparsity through l1-regularized optimization.
    - Align image and concept embeddings to a shared latent space.
 
 3. **Sparse vs Dense Embeddings**
@@ -41,9 +41,7 @@ We use the CIFAR-10 dataset for the experiments. The dataset will be automatical
 
 3. **Sparse Embedding Generation**
    - Solve the optimization problem:
-     \[
-     \min_w ||z_c - A_c w||^2_2 + \lambda ||w||_1
-     \]
+     ![Optimization equation](eqt.png)
    - Reconstruct sparse embeddings using the concept dictionary.
 
 4. **Zero-Shot Classification**
