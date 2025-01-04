@@ -72,8 +72,8 @@ We use the CIFAR-10 dataset for the experiments. The dataset will be automatical
 - During the classification, we analyzed the active concepts in the dictionary for each image. We found that the top contributing concepts aligned well with the true labels for most images, with some mispredictions being marginal (e.g., the class "Airplane" being incorrectly predicted as "Fox").
 - Examples of active concepts in misclassified and correctly classified images are shown below.
 
-![Incorrect Prediction Example](incorrect_example.png)  <!-- Replace with actual path for image file -->
-![Correct Prediction Example](correct_example.png)  <!-- Replace with actual path for image file -->
+![Incorrect Prediction Example](incorrect_example.PNG)  <!-- Replace with actual path for image file -->
+![Correct Prediction Example](correct_example.PNG)  <!-- Replace with actual path for image file -->
 
 ### Evaluation Summary
 - **Accuracy**: Sparse embeddings achieved an accuracy of 0.88, while dense embeddings achieved 0.95.
