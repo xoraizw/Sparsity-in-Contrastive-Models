@@ -1,6 +1,3 @@
-
-
-```markdown
 # Sparsity in Contrastive Models
 
 This repository explores the use of sparse signal recovery methods, such as \( l_1 \)-relaxation, to improve the interpretability of multimodal representations in contrastive models like CLIP (Contrastive Language–Image Pretraining). The primary objective is to evaluate how sparse CLIP embeddings compare to dense embeddings in a zero-shot classification task.
@@ -29,7 +26,7 @@ Clone the repository and install the required dependencies:
 git clone https://github.com/your-username/sparsity-contrastive-models.git
 cd sparsity-contrastive-models
 pip install -r requirements.txt
-```
+
 
 ### Data Preparation
 We use the CIFAR-10 dataset for the experiments. The dataset will be automatically downloaded when running the scripts.
