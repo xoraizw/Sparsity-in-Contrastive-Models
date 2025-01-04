@@ -41,7 +41,7 @@ We use the CIFAR-10 dataset for the experiments. The dataset will be automatical
 
 3. **Sparse Embedding Generation**
    - Solve the optimization problem:
-     ![Optimization equation](eqt.png)
+     ![Optimization equation](eq.PNG)
    - Reconstruct sparse embeddings using the concept dictionary.
 
 4. **Zero-Shot Classification**
